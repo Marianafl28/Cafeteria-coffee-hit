@@ -1,0 +1,347 @@
+/* Meu CSS */
+
+body {
+  background-color: #fafafa;
+}
+
+
+header img {
+  position: absolute;
+  left: 20px;
+  width: 150px;
+  padding: 0px;
+  border-radius: 50%;
+  height: auto;
+
+
+  /* Adicione essa linha para arredondar a imagem */
+
+}
+
+.logo-description,
+.slogan {
+  position: absolute;
+  top: 6%;
+  font-family: Arial;
+  transform: translateY(-50%);
+  font-weight: bold;
+  text-align: center;
+  left: 50%;
+  font-size: 40px;
+  color: #fcfcfc;
+  transform: translate(-50%, -50%);
+
+}
+
+header a img {
+  position: absolute;
+  left: 20px;
+  width: 150px;
+  padding: 0px;
+  border-radius: 50%;
+}
+
+
+
+header {
+  background-color: #bad3d6;
+  height: 150px;
+
+
+}
+
+header img {
+  position: absolute;
+  left: 0px;
+  width: 150px;
+  padding: 0px;
+}
+
+
+header {
+  background-color: #5E8FB7;
+  height: 150px;
+
+}
+
+header img {
+  position: absolute;
+  left: 0px;
+  width: 150px;
+  padding: 0px;
+}
+
+nav {
+  background-color: #307EB7;
+  height: auto;
+  text-align: center;
+}
+
+nav ul {
+  background-color: #307EB7;
+  height: auto;
+  list-style: none;
+  padding: 0;
+  display: inline;
+  justify-content: center;
+}
+
+nav li {
+  height: auto;
+  margin-right: 15px;
+  display: inline;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+
+nav li a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #121BB8;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0px;
+  border: 2px solid #271FB8;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+nav li a:hover {
+  background-color: #307EB7;
+}
+
+
+nav li a.trabalhe-conosco {
+  padding: 10px 15px;
+}
+
+
+section {
+  background-color: #CFE4FA;
+  height: auto;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+
+}
+
+
+.sec02 {
+  background-color: #CFE4FA;
+  height: auto;
+}
+
+
+header div {
+  background-color: #307EB7;
+  height: 120px;
+  width: 120px;
+  font-family: Verdana;
+  font-weight: bold;
+  color: #fae3bb;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  border: 2px solid #dbb2b7;
+  border-radius: 80px;
+  box-shadow: 0px 0px 15px;
+  text-shadow: 0px 0px 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+footer {
+
+  background-color: #307EB7;
+  height: auto;
+  width: auto;
+  font-family: Verdana;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+
+.social-icons {
+  display: inline;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+
+
+}
+
+
+form {
+
+  background-color: #77BBF9;
+}
+
+
+.input,
+textarea {
+
+
+  width: 300px;
+  padding: 10px;
+  color: #ffffff;
+  margin-left: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+textarea {
+
+  height: 140px;
+  max-width: 300px;
+  max-height: 300px;
+  max-lines: 12;
+}
+
+
+.form {
+  width: 150px;
+  padding: 10px;
+  color: #ffffff;
+  margin-left: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+
+}
+
+text-align: center;
+
+
+
+form label {
+
+  color: #307EB7;
+  margin-left: 20px;
+  font: verdana;
+  font-weight: bold;
+
+}
+
+
+h2,
+h3,
+h4,
+h5 {
+
+  padding: 10px;
+}
+
+.pesq {
+
+  padding: 10px;
+  color: #000000;
+  margin-left: 20px;
+
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+  border-color: #B3E8FA;
+  box-shadow: 5px 0px 9px #000000;
+  background-color: #307EB7;
+  color: #000000;
+  font-weight: bold;
+}
+
+/*CSS do formulario*/
+
+
+
+@media all and (max-width:999px) {
+
+  footer {
+
+    background-color: #307EB7;
+    height: auto;
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 50px;
+  }
+
+  body {
+    width: 100%;
+    margin: auto;
+  }
+
+  nav {
+    height: 100%;
+    font-size: 30px;
+
+  }
+
+  nav li {
+    display: block;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+  }
+
+
+  section {
+    font-size: 20px;
+  }
+
+  .sec_01 {
+    text-align: center;
+  }
+
+
+
+
+  @media all and (min-width:1000px) {
+
+    body {
+      width: 1000px;
+      margin: auto;
+    }
+
+
+    .sec01 {
+      background-color: #307EB7;
+      height: 250px;
+      font-size: 16px;
+      color: #000000;
+    }
+
+
+
+    .sec02 {
+      background-color: #307EB7;
+      height: 250px;
+      font-size: 26px;
+      color: #000000;
+    }
+
+    .header img {
+      height: 100%;
+      width: 100%;
+
+
+
+    }
+
+
+    .slogan {
+      height: 100%;
+      width: 100%;
+      text-align: center;
+    }

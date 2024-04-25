@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mariana Fernandes</title>
+  <meta name="Description" content="Curso de html5">
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header>
+    <a title="Home" href="index.html">
+      <!-- Correção: Fechamento da tag 'a' -->
+      <img src="img/logo.png" title="Logo do site" alt="logo do site">
+    </a> <!-- Correção: Fechamento da tag 'a' -->
+
+    <p class="logo-description">Coffee hit</p>
+
+  </header>
+  <nav>
+    <ul>
+      <li><a title="Menu" href="index.html">Menu</a></li>
+
+
+      <li><a title="Cardapio" href="cardapio.html">Cardápio</a></li>
+
+
+      <li><a title="Contato" href="contato.html">Contato</a></li>
+
+    </ul>
+  </nav>
+  <section>
+
+
+    <section>
+
+      <h2>Fale conosco - email/redes sociais</h2>
+
+
+
+
+
+
+
+
+
+
+
+      </P>
+
+    </section>
+
+
+
+    <section class="sec_01">
+
+      <a href="mailto:marianaflopes155@gmail.com" target="_blank">
+        <img src="img/email.png" title="email" alt="Imagem email"></a>
+
+      <a href="https://www.facebook.com/" target="_blank">
+        <img src="img/facebook.png" title="facebook" alt="imagem facebook"></a>
+
+      <a href="htps://instagram.com/" target="_blank">
+        <img src="img/instagram.png" title="instagram" alt="imagem instagram"></a>
+
+
+
+
+
+      <h2> Nossa localização</h2>
+      <hr>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29244.298021389503!2d-46.681379899999996!3d-23.620923299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce509e3f6865bb%3A0x293b97981f447a63!2sCampo%20Belo%2C%20S%C3%A3o%20Paulo%20-%20State%20of%20S%C3%A3o%20Paulo!5e0!3m2!1sen!2sbr!4v1692729676737!5m2!1sen!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <hr>
+
+
+
+    </section>
+
+
+    <section>
+
+      <form name="meu form">
+
+        <br>
+        <h2 class="margin"> cadastro </h2>
+
+
+
+
+
+
+        <p>
+
+
+          <input class="input" type="text" id="nomeid" placeholder="Seu nome" required "required" name="nome" />
+          <label for="nome"> Nome </label>
+        </p>
+
+
+        <p>
+
+
+          <input class="input" type="text" placeholder="(XX) XXXXX-XXXX" required"required" name="Telefone">
+          <label for="Telefone"> Telefone </label>
+        </p>
+
+        <p>
+
+
+          <input class="input" type="email" placeholder="Seu email" required"required" name="email">
+          <label for="email"> Email </label>
+        </p>
+
+
+        <label for="Faça seu comentario"> Faça seu comentario </label><br>
+        <textarea placeholder="Faça o seu comentario" data-ls-module="charCounter" maxlength="200">
+</textarea>
+        <p>
+
+
+        <P>
+
+          <input class="bt" type="reset" value="limpar">
+          <!--<input class="bt" type="submit" value="Enviar">-->
+          <input type="submit" class"bt" onclick="Enviar();" value="Enviar">
+        </P>
+
+        <h3> Crie sua senha </h3>
+
+        <p>
+          <input class="pesq" type="password" name="cartão" size="12" placeholder="senha">
+          <label for="senha"> Senha </label>
+        </p>
+
+
+        <h4> Crie sua senha </h4>
+
+        <p>
+          <input class="pesq" type="password" name="cartão" size="12" placeholder="senha">
+          <label for="senha"> Confirme sua senha </label>
+        </p>
+        </P>
+
+
+        <hr>
+
+
+        <h2 text-align="center"> Participe da nossa pesquisa </h2>
+        <h5> Qual a seu café favorito da nossa rede? </h5>
+
+        <select class="pesq" name="cafe">
+
+          <option value="cafe">--Sua opção--</option>
+          <option value="Carioca">--Carioca--</option>
+          <option value="Mineito">--Mineiro--</option>
+          <option value="Pailista">--Paulista--</option>
+
+        </select>
+        <label for="cafe-select"> Café </label>
+        <hr>
+
+        <h5> Qual sua comida favorita do nosso café? </h5>
+
+        <fieldset>
+
+          <legend><label for="materia">Comida favorita </label></legend>
+
+          <input type="radio" name="option" value="Pãp de queijo" Checked>
+          <label for="Pão de queijo"> Pão de queijo</label><br>
+
+          <input type="radio" name="option" value="Bolo de café">
+          <label for="Bolo de café"> Bolo de café </label><br>
+
+          <input type="radio" name="option" value="Bolo de limão">
+          <label for="Bolo de limão">Bolo de limão</label><br>
+
+          <input type="radio" name="option" value="Coxinha">
+          <label for="Coxinha"> Coxinha </label><br>
+
+
+          <input type="radio" name="option" value="Torta de frangos">
+          <label for="Torta de frango"> Torta de frango </label><br>
+
+          <input type="radio" name="option" value=Torta de morango">
+          <label for="Torta de morango"> Torta de morango </label><br>
+
+          <input type="radio" name="option" value="Esfira">
+          <label for="Esfira"> Esfira</label><br>
+
+
+
+
+        </fieldset>
+
+
+        <h5>Já comprou um dos nossos produtos especiais? </h5>
+
+        <input class="pesq" type="checkbox" name="produto" value="Sim">
+        <label for="sim"> Sim </label><br>
+
+        <input class="pesq" type="checkbox" name="produto" value="Não">
+        <label for="não"> Não </label><br>
+
+      </form>
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <section>
+      <!-- Aqui fica informações variáveis -->
+    </section>
+    <article>
+      <em><strong>
+          <marquee>Cafezin gostosin</marquee>
+        </strong></em>
+
+    </article>
+    <footer>
+      <p>
+        Coffee hit ☕ Copyright - 2023 © Todos os
+        direitos reservados ☕ Coffee hit
+        ☕ Mariana Fernandes
+      </p>
+      <div class="social-icons">
+
+
+
+
+        <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank">
+          <span><img src="img/whatsapp.png" title="whatsapp" alt="whatsapp"></span>
+
+
+          <a href="https://www.instagram.com/" target="_blank">
+            <span><img src="img/instagram.png" title="instagram" alt="instagram"></span>
+
+
+            <a href="https://pt-br.facebook.com/" target="_blank">
+              <span><img src="img/facebook.png" title="facebook" alt="facebook"></span>
+
+
+
+              <span class="move-right"><img src="img/cafe.png" title="cafe" alt="Cafe"></span>
+
+
+              <span><img src="img/coffee.png" title="coffee" alt="coffee"></span>
+
+
+
+      </div>
+    </footer>
+</body>
+
+</html>
